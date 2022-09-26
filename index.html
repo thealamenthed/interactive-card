@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+ <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap" rel="stylesheet">
+
+
+  <link rel="stylesheet" href="style.css">
+  
+  <title>Frontend Mentor | Interactive card details form</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+    <div class="container">
+
+      <div class="side-img">
+        <div class="all">
+          <div class="carre bleu hautb relatif"></div>
+          <div class="carre vert relatif hautf"></div>
+        </div>
+      </div>
+      
+      <div class="bottom">
+
+        <form action="">
+          <div class="row">
+            <label for="fname">CARDHOLDER NAME</label>
+            <input type="text" id="fname" name="fname" placeholder="e.g. Jane Appleseed">
+          </div>
+
+          <div class="row">
+            <label for="cardnumber">CARD NUMBER</label>
+            <input type="number" id="cardnumber" name="cardnumber" placeholder="e.g. 1234 5678 9123 0000">
+          </div>
+
+          <div class="row card">
+            <div class="left">
+              <label for="date-exp">EXP. DATE <span> (MM /YY) </span> </label>
+              <div class="date-input">
+                <input class="part-date"type="text" id="mm" name="mm" placeholder="MM"> 
+                <input class="part-date" type="text" id="yy" name="yy" placeholder="YY">
+              </div>
+            </div>
+            <div class="right">
+              <label for="date-exp">CVC</label>
+              <input class="part-numb"type="number" id="CVC" name="CVC" placeholder="e.g. 123">
+            </div>
+          </div>  
+          <button class="button-confirm" type="submit">Confirm</button>
+        </form>
+
+      </div>
+
+    </div>
+
+
+
+
+  
+<!--   <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+</body>
+</html>

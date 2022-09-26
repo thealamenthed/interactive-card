@@ -1,0 +1,174 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    outline: none;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Variables du projet */
+:root {
+    /* Couleurs */
+    --Light-grayish-violet: hsl(270, 3%, 87%);
+    --Dark-grayish-violet: hsl(279, 6%, 55%);
+    --Very-dark-violet: hsl(278, 68%, 11%);
+    --White: hsl(0, 0%, 100%)
+}
+
+.container {
+    width: 100%;
+}
+
+.side-img {
+    background-image: url(/images/bg-main-mobile.png);
+    height: 15rem;
+    background-size: cover;
+
+}
+
+.all {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.relatif {
+    position: relative;
+}
+
+.hautf {
+    top: 126px;
+    /*Elément décalé de 50px vers le bas p/r à une origine*/
+}
+
+.hautb {
+    top: 35px;
+    /*Elément décalé de 50px vers le bas p/r à une origine*/
+}
+
+.droite {
+    right: -95px;
+    /*Element décalé de 150px vers la droite p/r à une origine*/
+}
+
+.gauche {
+    left: -16rem;
+    /*Element décalé de 30px vers la gauchr p/r à une origine*/
+}
+
+.bleu {
+    background-image: url(/images/bg-card-back.png);
+    height: 10rem;
+    background-size: cover;
+    width: 18rem;
+    border-radius: 10px;
+    float: right;
+
+
+}
+
+.vert {
+    background-image: url(/images/bg-card-front.png);
+    background-size: cover;
+    width: 18rem;
+    height: 10rem;
+    border-radius: 10px;
+}
+
+.bottom {
+    margin: 90px 0px 0px 30px;
+
+}
+
+input {
+    height: 2.8rem;
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 500;
+    width: 90%;
+    border: 1px solid rgb(224, 224, 224);
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-left: 4px;
+    padding-left: 10px;
+
+
+
+
+}
+
+label {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 500;
+    color: rgb(84, 77, 84);
+    font-size: 13px;
+
+}
+
+
+
+.part-date {
+    width: 45%;
+}
+
+#fname::placeholder{
+    color: var(--Light-grayish-violet);
+}
+
+#cardnumber::placeholder{
+    color: var(--Light-grayish-violet);
+}
+
+#mm::placeholder{
+    color: var(--Light-grayish-violet);
+}
+
+#yy::placeholder{
+    color: var(--Light-grayish-violet);
+}
+
+#CVC::placeholder{
+    color: var(--Light-grayish-violet);
+}
+
+
+
+.part-numb {
+    padding-left: 10px;
+    width: 200%;
+    color: var(--Light-grayish-violet);
+}
+
+.button-confirm {
+    background-color: var(--Very-dark-violet);
+    color: var(--White);
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    border-radius: 10px;
+    width: 92%;
+    height: 3rem;
+    cursor: pointer;
+    margin-top: 25px;
+}
+
+.row{
+    margin-top: 25px;
+}
+.row.card{
+    display: flex;
+    
+}
+
+.right label{
+    display: block;
+}
+
+.right{
+    padding-right: 7rem;
+
+}
+
